@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html lang="da">
+<head>
+    <!-- Her angiver vi hvilket sprog hjemmesiden kan skrives i-->
+    <meta charset="utf-8">
+
+    <!-- Med denne kode gør vi hjemmesiden mere responsiv, da den vil scalere-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- her går vi ind gennem google fonts og henter vores font til hjemmesiden-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <title>Tandpasta</title>
+
+    <!-- Her linker vi til vores CSS-fil-->
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+<body onload="alert('Dette website er en del af et studieprojekt på multimediedesigneruddannelsen!')" >
+
+    <!-- Her indsætter vi en pagewrap, der skal indeholde vores gridsystem-->
+    <div id="pagewrap">
+
+    <!-- Her indsætter vi vores Banner, i en header section -->
+        <header>
+            <img src="Banner.jpg" id="BannerIMG" />
+        </header>
+
+    <!-- i vores intro har vi først en overskrift på vores hjemmeside, samt en kort tekst der introducere folk til vores side. -->
+        <section id="Intro">
+            <div id="IntroText">
+
+                <div id="IndTitle">
+                    Informationsside omkring børnetandpasta
+                </div>
+
+                <br /><br />
+                Som virksomhed vil vi gerne sørge for at du er godt informeret om tandpasta og hvad der kan være vigtigt at vide når du leder efter en god tandpasta til dit barn.
+                <br /><br />
+                Du kan finde informationer om hvilken forskel der egentlig er på voksen og børnetandpasta.
+                <br />
+                Hvad de forskellige farvekoder bag på tandpastatuben betyder.
+                <br />
+                Samt hvilke kemikalier der er i vores børnetandpasta, smiles junior, og hvad den enkelte del betyder for tandpastaen og dig.
+            </div>
+        </section>
+
+    <!-- I vores section omkring forskel på børnetandpasta og almendelig tandpasta,
+        har vi et billede over og under selve teksten, der er et png billede, 
+        så vi kan få effecten af at teksten er inde i en mund.-->
+        <section id="Forskel">
+
+            <img src="Upper.png" id="teetht" />
+
+            <div id="ForTitle">Hvad er forskellen på børnetandpasta og almindelig tandpasta?</div>
+
+            <div id="For">
+                Den største forskel på børne og voksen tandpasta er den mængde af fluorid det indeholder og smagen.
+                <br />
+                Fluorid er i mindre mænger i børnetandpasta, da børn tit har problemer med at spytte det ud igen, og derfor sluger det i stedet. 
+                <br />
+                Derfor er fluorid i mindre mængder så børnene ikke får det dårligt af at sluge det.
+                <br /><br />
+                Man laver børnetandpasta med et meget stort udvalg af smage, da et barn tit ville syntes at en mentolsmag, smager dårligt.
+                <br />
+                Det er også muligt at få fat i en voksen tandpasta som har samme mængde af fluorid som en børne tandpasta, men uden den søde smag.
+                <br />
+                Så den største forskel på børne og voksen tandpasta er den søde smag.
+            </div>
+
+            <img src="Lower.png" id="teethb" />
+
+        </section>
+
+    <!-- Her har vi et billede af vores Colorcode bag på tandpasta tuben, den har sin egen section,
+        da vi gennem grid systemet gerne vil kunne rykke rundt på den.-->
+        <section id="WhatColorIMAGE">
+        <div id="colorimg">
+            <img src="Colorcode.png"/>
+        </div>
+    </section>
+
+    <!-- I denne section har vi informationerne omkring colorcoding.
+        Vi beskriver hvad folk tror colorcoding står for, og hvad det virkelig betyder.-->
+        <section id="Colorcode">
+            <div id="WhatColor">
+
+                <div id="IndTitle">Hvad betyder farven på tandpastatuben? <br />De fleste steder vil du få informationerne:</div>
+                
+                    <div id="blaa">Den blå farve betyder tuben indeholder nuturlige produkter, samt lægemidler.</div>
+                    <div id="green">Den grønne farve betyder at det kun er naturprodukter der er i tandpastaen.</div>
+                    <div id="red">Den røde farve, betyder der er både naturlige og kemiske produkter i tandpastaen.</div>
+                    <div id="black">Den sorte farve betyder at tandpastaen kun indeholder kemisk fremstillede produkter. </div>
+               <div class="clearfix"></div>
+                
+                <div id="men">
+                    <div id="LIES">MEN</div>Dette er hvad man hører, og hvad man kan finde på nettet.
+                    Sandheden er at disse farver ikke har noget at gøre med indholdet af hvad der er i tandpastaen, men mere omkring hvordan produktionen forgår.
+                    <br />
+                    <br />
+                    Disse mærker indikerer nemlig hvor maskinen skal klippe tuben over, da tuberne først bliver lavet i en lang sammenhængende række.
+                    Maskinen klipper der hvor mærkerne er placeret og limer derefter enden sammen.
+                </div>
+            </div>
+
+        </section>
+
+    <!-- Her har vi en section med et billede for at hjemmesiden ikke bliver for tung.-->
+        <section id="Whatisit">
+            <img src="Hvaderderitandpasta.jpg" id="Hvadertandpasta"  />
+        </section>
+
+    <!-- I denne section, der er et underemne til billeder ovenover, forklare vi hvad der er i 
+        vores udleverede produkt, colgate's smiles junior.-->
+        <section id="WhatisitText">
+            <div id="WhatWrap">
+
+                <div id="IndTitle">Disse ingredienser findes i Colgates Junior tandpasta fra Smiles serien.</div>
+
+                <div id="Sorbitol">
+                    <h3>Sorbitol</h3>
+                    Et af de 4 brugte alkohol sødestoffer, som bruges i sukkerfrie produkter.
+                </div>
+
+                <div id="Mica">
+                    <h3>Mica</h3>
+                    Bliver brugt i mange kosmetiske produkter.
+                    Det giver produktet glans, og er med til at polere tænderne.
+                </div>
+
+                <div id="Lau">
+                    <h3>Sodium lauryl sulfate</h3>
+                    Dette kemiske stof, gør at tandpastaen skummer.
+                    Det desensibiliserer smagsløgene. Derfor smager ting såsom juice bittert efter tandbørstning.
+                </div>
+
+                <div id="Aqua">
+                    <h3>Aqua</h3>
+                    Det latinske ord for vand.
+                </div>
+
+                <div id="Aroma">
+                    <h3>Aroma</h3>
+                    Er et koncentreret smagsstof.
+                </div>
+
+                <div id="Cell">
+                    <h3>Cellulose Gum</h3>
+                    Bliver brugt til at gøre tandpasten tyggere i konsistensen.
+                    Findes i mad med E-nummeret E466.
+                </div>
+
+                <div id="HS">
+                    <h3>Hydrated Silica</h3>
+                    Bliver fundet i naturen i form af smykkestenen Opal.
+                    Til tandpasta bliver stenen kunstig produceret.
+                    Fjerner plak.
+                </div>
+
+                <div id="PEG">
+                    <h3>PEG-12</h3>
+                    Fugtighedsbevarende midler og opløsningsmidler.
+                    Forhindre at tandpastaen udtørrer.
+                </div>
+
+                <div id="SS">
+                    <h3>Sodium saccharin</h3>
+                    Et meget normalt sødemiddel, der skal gemme alle de grimme smage fra de andre ingredienser.
+                </div>
+
+                <div id="SF">
+                    <h3>Sodium Fluoride</h3>
+                    Det vigtigeste Kemiske stof der findes i tandpasta.
+                    Styrker emaljen, forhindrer hulrum og bekæmper plak.
+
+                </div>
+
+                <div id="CI">
+                    <h3>CI</h3>
+                    Eller kendt som Titanium dioxide.
+                    En uorganisk forbindelse, der bliver brugt i mange forskellige kropsplejeprodukter.
+                    <br />
+                    CI står for farve index.
+                    <br />
+                    <b>CI 77891</b> giver en hvid farve.
+
+                    <b>CI 73360</b> giver en pink farve.
+
+                    <b>CI 74160</b> giver en grøn farve.
+
+                </div>
+            </div>
+        </section>
+
+    <!-- Vi afslutter vores hjemmeside af med en footer, der beskriver hvem der har lavet siden,
+        og copyright.-->
+        <footer>
+            <p>&copy; Copyright Alexander Kyndi og Camilla Olesen | Multimediedesigner Dania Skive 2017</p>
+        </footer>
+    </div>
+    
+    <!-- pagewrap -->
+</body>
+</html>

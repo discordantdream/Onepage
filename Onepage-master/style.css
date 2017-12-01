@@ -1,0 +1,410 @@
+/*
+    Body 
+    Her sætter vi al margin til 0
+    og angiver hvilken tekst der skal bruges på siden.
+*/
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+/*
+    HEADER
+    Her angiver vi vores headers grid area navn, samt fjerner 5px af billedet,
+    så dens box shadow ligger sig til billedet. 
+*/
+header {
+    grid-area: header;
+    margin-bottom: -5px;
+}
+
+#BannerIMG {
+    width: 100%;
+    box-shadow: 1px 1px 8px 3px #1b1b1b;
+}
+
+/*
+    INTRO
+    Her giver vi vores intro section dens grid area,
+    samt giver den sit baggrundsbillede. 
+    Vi sætter dens z-index til -1 for at få den til at 
+    ligge bag de andre elemter, for at lave en smule 3D.
+*/
+
+#Intro {
+    grid-area: Intro;
+    background-image: url('extra_clean_paper.png');
+    z-index: -1;
+}
+
+#IntroText {
+    color: #808080;
+}
+
+/*
+    Forskel
+    Her flytter vi mest rundt på teksten og får teksten centreret.
+*/
+
+#Forskel {
+    grid-area: for;
+    box-shadow: 1px 1px 8px 3px #1b1b1b;
+    background-image: url('RedCir.jpg');
+    background-size: cover;
+    color: black;
+}
+
+#For {
+    text-align: center;
+    padding: 4em;
+}
+
+#ForTitle {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: -3em;
+    font-weight: bold;
+}
+
+#IndTitle {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 2em;
+    font-weight: bold;
+}
+
+#teetht {
+    width: 100%;
+    opacity: 0.8;
+}
+
+#teethb {
+    width: 100%;
+    margin-bottom: -5px;
+    opacity: 0.8;
+}
+
+/* 
+    Farve betydningen på tuben
+*/
+
+#Colorcode {
+    grid-area: color;
+    background-image: url('extra_clean_paper.png');
+    z-index: -1;
+}
+
+#WhatColor {
+    color: #808080;
+}
+
+#WhatColortest {
+    background-image: url('extra_clean_paper.png');
+}
+
+#WhatColorIMAGE {
+    grid-area: colimg;
+    margin-bottom: -5px;
+    background-image: url('extra_clean_paper.png');
+    z-index: -1;
+}
+
+/*
+    COLORCODE 
+
+*/
+
+#colorimg {
+    text-align: center;
+}
+
+    #colorimg img {
+        width: 80%;
+    }
+
+#colortext {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #d248cf;
+    margin-bottom: 1em;
+}
+/*Dette gør at gradient boxene virker på forskellige browsere så der er en til hver af de mest brugte browsers*/
+#blaa {
+    color: white;
+    margin: 1em;
+    background-color: #0000ff;
+    background: -webkit-linear-gradient(#00eaff, #0000ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00eaff, #0000ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00eaff, #0000ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00eaff, #0000ff); /* Standard syntax */
+    padding: 1em;
+    border-radius: 2em;
+    margin-top: 3em;
+}
+
+#green {
+    color: white;
+    margin: 1em;
+    background-color: #4cff00;
+    background: -webkit-linear-gradient(#70ff33, #288600); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#70ff33, #288600); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#70ff33, #288600); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#70ff33, #288600); /* Standard syntax */
+    padding: 1em;
+    border-radius: 2em;
+}
+
+#red {
+    color: white;
+    margin: 1em;
+    background-color: #e60000;
+    background: -webkit-linear-gradient(#ff4848, #a00000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff4848, #a00000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff4848, #a00000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff4848, #a00000); /* Standard syntax */
+    padding: 1em;
+    border-radius: 2em;
+}
+
+#black {
+    color: white;
+    margin: 1em;
+    background-color: black;
+    background: -webkit-linear-gradient(#808080, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#808080, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#808080, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#808080, black); /* Standard syntax */
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*
+    Farvekode betydning men section 
+*/
+
+#men {
+    margin-top: 2em;
+}
+
+#LIES {
+    font-size: 2em;
+    color: red;
+}
+
+/* 
+    Hvad er der i tandpasta
+*/
+
+#Hvadertandpasta {
+    width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+}
+
+#Whatisit {
+    grid-area: What;
+    box-shadow: 1px 1px 8px 3px #1b1b1b;
+}
+
+#WhatisitText {
+    grid-area: WhatText;
+    background-image: url('Kemi.jpg');
+    background-size: 100%;
+    z-index: -1;
+    
+}
+
+#WhatWrap {
+    margin: auto;
+    text-align: center;
+}
+
+/* Footeren */
+
+footer {
+    grid-area: footer;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: #000;
+    color: #aaa;
+    padding: 0.1em;
+}
+
+/**********************************************
+    Her er de forskellige media skærme
+    Under disse forskellige skærmstørrelser har vi opsat
+    de forskellige grid systemer, samt ændret noget css
+    så den nye css vil override den standard css, som er 
+    angivet ovenfor, så det hele kommer til at passe ind.
+*********************************************/
+/*Gør siden Mobil responsiv*/
+@media screen and (min-width: 0) and (max-width: 500px) {
+    #pagewrap {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header" 
+            "Intro" 
+            "for" 
+            "colimg" 
+            "color" 
+            "What"
+            "WhatText" 
+            "footer";
+    }
+
+    #IntroText, #WhatColor {
+        margin: 0;
+        text-align: center;
+        padding: 5em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-size: 12px;
+    }
+
+    #For {
+        text-align: center;
+        padding: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-size: 12px;
+    }
+
+    #ForTitle {
+        font-size: 14px;
+        text-align: center;
+        padding: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-weight: bold;
+    }
+
+    #colorimg img {
+        width: 60%;
+        margin-top: 2em;
+    }
+
+    #Sorbitol, #Mica, #Lau, #Aroma, #Aqua, #Cell, #HS, #PEG, #SS, #SF, #CI {
+        padding: 1em;
+        margin: auto;
+        text-align: center;
+        font-size: 10px;
+    }
+}
+/*Gør siden Tablet responsiv*/
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    #pagewrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "header header header header" 
+            "Intro Intro Intro Intro" 
+            "for for for for" 
+            "colimg colimg colimg colimg" 
+            "color color color color" 
+            "What What What What" 
+            "WhatText WhatText WhatText WhatText" 
+            "footer footer footer footer";
+    }
+
+    #IntroText, #WhatColor {
+        margin: 0;
+        text-align: center;
+        padding: 2em;
+        font-size: 14px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    #For {
+        font-size: 14px;
+    }
+
+    #colorimg img {
+        width: 40%;
+        margin-top: 1em;
+    }
+
+    #WhatisitText {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #WhatWrap {
+        margin: 0 auto;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    #Sorbitol, #Mica, #Lau, #Aroma, #Aqua, #Cell, #HS, #PEG, #SS, #SF, #CI {
+        padding: 1em;
+        margin: auto;
+        text-align: center;
+        font-size: 12px;
+        width: 40%;
+        float: left;
+    }
+
+}
+/*Gør siden Desktop responsiv*/
+@media screen and (min-width: 800px) {
+    #pagewrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+        grid-template-areas: 
+            "header header header header" 
+            "Intro Intro Intro Intro" 
+            "for for for for" 
+            "colimg color color color" 
+            "What What What What" 
+            "WhatText WhatText WhatText WhatText" 
+            "footer footer footer footer"
+    }
+
+    #IntroText, #For {
+        margin: 0;
+        text-align: center;
+        padding: 5em;
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    #WhatColor {
+        margin: 0;
+        text-align: center;
+        padding: 5em;
+    }
+
+    #colorimg {
+        text-align: center;
+        margin-top: 90%;
+    }
+
+
+    #Sorbitol, #Mica, #Lau, #Aroma, #Aqua, #Cell, #HS, #PEG, #SS, #SF, #CI {
+        padding: 2em;
+        text-align: center;
+        font-size: 12px;
+        color: #343434;
+        width: 28%;
+        float: left;
+        color: black;
+    }
+
+    #blaa, #green, #red, #black {
+        width:40%;
+        float: left;
+        position: relative;
+        margin: 0.4em;
+        font-size: 0.8em;
+    }
+
+}
